@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Home </title>
+    <link type="image" rel="sho icon" href="https://seeklogo.com/images/P/pinterest-logo-CA98998DCB-seeklogo.com.png">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <i class="fa-brands fa-2x  fa-pinterest-p  fa-cog "></i>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa-sharp fa-solid fa-bell fa-2x "></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">99</span>
+
+                </button>
+                <button type="button" class="btn position-relative">
+                    <a href="register.html" ><i class="fa fa-registered fa-2x loginIcon"></i></a>
+
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa-sharp fa-solid fa-comments  fa-2x"></i>
+                </button>
+            </div>
+            <button class="navbar-toggler border-0" type="button" id="toggleNotification" data-bs-toggle="collapse"
+                data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-lg-1 d-md-none" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link active bg-sm-light bg-dark text-light rounded-pill me-2" aria-current="page"
+                            href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Create
+                        </a>
+                        <ul class="dropdown-menu rounded-start rounded-start-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">CReate Idea Pin</a></li>
+                            <li><a class="dropdown-item" href="#">CReate Bin</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2 col-12">
+                        <form class="d-flex">
+                            <i class="fa-solid fa-magnifying-glass login__icon ms-3 mt-3"></i>
+                            <input class=" me-0 form-control rounded-pill col-12 signin_input" type="search"
+                                placeholder="      Search" aria-label="Search">
+                            <!--  <div class="input-group">
+                                <input class=" me-0 form-control rounded-pill col-12 signin_input" type="search"
+                                    placeholder="Search" aria-label="Search"> 
+                            </div> -->
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!--slider of your recommended bins-->
+    <div id="carouselExampleIndicators" class="vh-100 slid_features carousel slide tp-5" data-bs-ride="carousel"
+        style="padding-top: 104px;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="text-center carousel-item active">
+                <h2 class="text-capitalize  text-center fw-bold  text-white">It’s different here</h2>
+                <p class="display-6  text-center text-white">
+                    On Pinterest, people feel safe to explore <br> new ideas and try new things.
+                    They’re looking for<br> inspiration—and they’re looking for you.
+                </p>
+                <a href="#" class="btn btn-outline-light mt-3 rounded-pill">Create Account</a>
+            </div>
+            <div class="text-center carousel-item ">
+                <h2 class="text-capitalize  text-center fw-bold  text-white">It’s different here</h2>
+                <p class="display-6  text-center text-white">
+                    On Pinterest, people feel safe to explore <br> new ideas and try new things.
+                    They’re looking for<br> inspiration—and they’re looking for you.
+                </p>
+                <a href="#" class="btn btn-outline-light mt-3 rounded-pill">Create Account</a>
+            </div>
+            <div class=" carousel-item text-center">
+                <h2 class="text-capitalize text-white text-center">best price & offer</h2>
+                <p class="display-6 p-1 text-white">
+                    Forget vanity metrics. The people on Pinterest <br>
+                    want to try your ideas or shop your store. <br>
+                    It’s a deeper, more meaningful kind of <br>
+                    engagement than you’ll
+                    find on other platforms
+                </p>
+                <a href="#" class=" btn btn-outline-light mt-3 rounded-pill text-uppercase">SHow now</a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--bussiness account section-->
+    <section id="collection" class="py-5">
+        <div class="title text-center">
+            <h2 class="position-relative d-inline-block display-3">Where would you like to start?</h2>
+        </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 d-flex mt-2 bins border-sm border-primary ms-1 box-shadow ">
+                    <div class="col-3 d-none d-lg-block"> <img
+                            src="https://i.pinimg.com/originals/90/50/9c/90509c2e4dc66e9673d587ce723b29dc.png"></div>
+                    <div class="col-9 ms-5 mx-4 mt-5">
+                        <h4>SHare Idea</h4>
+                        <p>Create bins to show tell your brand story, using images, videos, products or links</p>
+                        <a href="#" class="text-dark">
+                            <h5>Create A Pin</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-10 offset-2 d-flex bins mt-2 box-shadow  ">
+                    <div class="col-4 d-none d-lg-block"> <img
+                            src="https://i.pinimg.com/originals/6a/7d/64/6a7d64c14964d7126406fc905318b3da.png"></div>
+                    <div class="col-6 ms-5 mx-4 mt-4">
+                        <h4>Show case your Brands</h4>
+                        <p class="mt-1">Help People on pinterest toget to KNow your Brand by adding pictures, locations
+                            and other useful and helpful informations</p>
+                        <a href="">
+                            <h5>Build Your Profile</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 d-flex mt-3 ms-1 bins box-shadow ">
+                    <div class="col-3 d-none d-lg-block"> <img style="height: 250px; width: 290px;"
+                            src="https://i.pinimg.com/736x/d3/f1/64/d3f16493a47036d42d841c32ceb2ac7f.jpg"></div>
+                    <div class="col-9 ms-5 mx-4 mt-5">
+                        <h4>Peace Out</h4>
+                        <p>Don't have your own bins yet!, hurry up and join our club</p>
+                        <a>
+                            <h5>SHare Your Pin</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--search history-->
+    <section id="collection" class="py-5">
+        <div class="title text-center  ">
+            <h2 class="position-relative d-inline-block display-3">Your Recent searches</h2>
+        </div>
+        <div class="m-1">
+            <div class="row ">
+                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type="button" class="btn btn-secondary m-2 text-dark active-filter-btn box-shadow"
+                        >FLowry days  <a id="delete"><i class="fa fa-xmark p-1"></i></a>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary m-2 text-dark box-shadow"
+                       > A Peace of ur mind<a id="delete"><i class="fa fa-xmark p-1"></i></a>
+                    </button>
+                       
+                    <button type="button" class="btn btn-outline-secondary m-2 text-dark box-shadow"
+                        >our beloved summer <a id="delete"><i class="fa fa-xmark p-1"></i></a>
+                    </button>
+
+                    <button type="button" class="btn btn-outline-secondary m-2 text-dark box-shadow"
+                        data-filter=".new">phoenix project
+                        <a id="delete"><i class="fa fa-trash ps-1"></i></a></button>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-4  col-lg-3">
+                        <div class="card box-shadow mx-auto my-5" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/736x/21/6c/4a/216c4ae491989582876b031c13d725e4.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Anémone</h5>
+                                <hr>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="card box-shadow my-5 mx-auto" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/736x/2e/8e/de/2e8edea0743d711542be5c5764fbbb7b.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tulipe</h5>
+                                <hr>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="card box-shadow mx-auto my-5" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/564x/ff/84/91/ff8491a703d86a7100c888fea8b334d1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lycoris</h5>
+                                <hr>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="card box-shadow mx-auto my-5" style="width: 18rem;">
+                            <img src="https://nsm09.casimages.com/img/2021/06/26//21062602461725998217475198.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lycoris</h5>
+                                <hr>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                                <path fill="#ffffff" fill-opacity="1"
+                                    d="M0,256L48,256C96,256,192,256,288,245.3C384,235,480,213,576,181.3C672,149,768,107,864,112C960,117,1056,171,1152,186.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                                </path>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="card box-shadow mx-auto my-5" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/736x/ef/03/03/ef0303403ca610b9eca27120396c5117.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Anémone</h5>
+                                <hr>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="card box-shadow my-5 mx-auto" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/736x/05/5a/6c/055a6c5c7fb5e583ef58f07ae1521df3.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tulipe</h5>
+                                <hr>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="card box-shadow mx-auto my-5" style="width: 18rem;">
+                            <img src="https://nsm09.casimages.com/img/2021/06/26//21062602461725998217475198.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lycoris</h5>
+                                <hr>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                                <path fill="#ffffff" fill-opacity="1"
+                                    d="M0,256L48,256C96,256,192,256,288,245.3C384,235,480,213,576,181.3C672,149,768,107,864,112C960,117,1056,171,1152,186.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="card box-shadow mx-auto my-5" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/750x/69/34/6f/69346f0af5593a96ff16633445b59e12.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lycoris</h5>
+                                <hr>
+                                <p class="card-text">Some quick example</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--qoutes sections -->
+    <section class="" style="background-color: #eee;">
+        <div class="container py-5 h-100">
+            <div class="title text-center m-3">
+                <h6 class="position-relative d-inline-block display-3">Here is With Your Most dominent Qoutes ?</h6>
+            </div>
+            <div class="row d-flex align-items-center h-100" id="qoutesSection">
+                <div class=" col-lg-6 col-sm-12 mb-4 mb-lg-0  ">
+                    <figure class="bg-white p-3 rounded" style="border-left: .25rem solid #a34e78;">
+                        <blockquote class="blockquote pb-2">
+                            <p>
+                                Age is an issue of mind over matter. If you don't mind, it doesn't matter.
+                            </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mb-0 font-italic">
+                            Mark Twain
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-6  col-sm-12">
+                    <figure class="bg-white p-3 rounded" style="border-left: .25rem solid #f68e9d;">
+                        <blockquote class="blockquote pb-2">
+                            <p>
+                                All you need in this life is ignorance and confidence, and then success is sure.
+                            </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mb-0 font-italic">
+                            Mark Twain
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row text-dark g-4">
+                <div class="col-sm-12 col-lg-6">
+                    <a class=" text-decoration-none brand text-white">
+                        <i class="fa-brands fa-2x  fa-pinterest-p  fa-footer "> </i>
+                        <h6 class="display-6 d-inline-block ms-1 mt-1">Pinterest</h6>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="text-light">About Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> What's pinterest
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Our Pinterest profile
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Engineering Blogs
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Pinterest Labs
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="text-light mb-3">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            Pinterest Community
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            Stack Overflow
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                        <span class="fw-light">
+                            Twitter BLog
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="fw-light mb-3">Follow Us</h5>
+
+                </div>
+            </div>
+            <div class="col-12 text-light">
+                <p class="">&copy; 2022
+                    Pinterest</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
+</body>
+</html>
